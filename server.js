@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 
 const app = express();
-const PORT = 8000;  // ⬅️ البورت 8000 هنا
+const PORT = process.env.PORT || 8000; // ⬅️ البورت 8000 هنا
 
 
 // إنشاء مجلد captured_data إذا ماكانش موجود
@@ -34,15 +34,11 @@ app.use(cors({
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use((req, res, next) => {
-  res.setHeader("ngrok-skip-browser-warning", "true");
-  next();
-});
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Preflight requests
 app.options('*', cors({
-    origin: ['http://localhost:8000', 'http://127.0.0.1:8000'],
+    origin: true,
     methods: ['GET', 'POST'],
     credentials: true,
     optionsSuccessStatus: 200
