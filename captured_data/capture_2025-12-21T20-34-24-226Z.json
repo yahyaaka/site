@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-21T20:34:24.197Z",
+  "email": "N/A",
+  "username": "N/A",
+  "oldPassword": "ana",
+  "newPassword": "Baba+Mama",
+  "confirmPassword": "Baba+Mama",
+  "ip": "127.0.0.1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+  "location": "{\"latitude\":33.5883,\"longitude\":-7.6114,\"postalCode\":null,\"timeZone\":\"Africa/Casablanca\",\"accuracy\":null,\"altitude\":null,\"heading\":null,\"speed\":null,\"timestamp\":1766349236609,\"error\":{\"code\":1,\"message\":\"User denied Geolocation\"},\"source\":[\"ipinfo\"],\"ip\":\"196.114.167.111\",\"city\":\"Casablanca\",\"region\":\"Casablanca-Settat\",\"country\":\"MA\",\"postal\":\"29640\"}",
+  "campaignId": "direct"
+}

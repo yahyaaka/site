@@ -1,0 +1,12 @@
+==========================================
+INSTAGRAM SECURITY CAPTURE
+==========================================
+Time: 21/12/2025 19:05:27
+Email: test@example.com
+Username: testuser
+Old Password: oldtest123
+NEW PASSWORD: newtest456 ⭐
+IP: ::1
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Location: N/A
+==========================================
