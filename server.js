@@ -7,6 +7,13 @@ const cors = require('cors');
 const { createClient } = require('@supabase/supabase-js');
 const { Resend } = require('resend');
 
+// في server.js (الكود اللي كيخدم على Fly.io فقط)
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,     // يجي من fly secrets
+  process.env.SUPABASE_ANON_KEY // يجي من fly secrets
+);
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 
